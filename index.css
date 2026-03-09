@@ -1,0 +1,64 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  background-image: url("photo4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+/* HEADINGS */
+h1, h2 {
+  margin: 20px 10px;
+}
+
+/* BUTTON */
+button {
+  border: 2px solid black;
+  padding: 12px 20px;
+  font-size: 16px;
+  margin-top: 15px;
+  width: 80%;
+  max-width: 250px;
+  border-radius: 8px;
+}
+
+/* OWNER SECTION */
+#owner {
+  margin-top: 20px;
+}
+
+/* 🔹 MOBILE MEDIA QUERY */
+@media (max-width: 768px) {
+
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 14px;
+  }
+}
